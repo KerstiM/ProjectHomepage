@@ -1,0 +1,464 @@
+body {
+		background: url(Pildid/artIII.jpg) no-repeat top center fixed; /* taustapildi lisamine */
+		background-size: cover;
+		width: 100%;
+		height: 100%;
+		font-size: 18px;
+	}
+/*-----------------BACKGROUND IMAGE END----------*/
+/*-----------------WHITE BACKGROUND BOX START----*/
+	#wrapper {
+		width: 80%;
+		height: 100%;
+		min-height: 800px;
+		margin: 0 -9999rem;
+		margin-top: 30px;
+		background: rgba(255, 255, 255, 0.95);
+		padding: 0.25rem 9999rem;
+		border-radius: 2px;
+		z-index: -1;
+
+	}
+
+	/*-----------------WHITE BACKGROUND BOX END------*/
+	/*-----------------SLOGAN START------*/
+		p.slogan{
+			font-size: 30px;
+			font-family: 'Open Sans Condensed', sans-serif;
+			letter-spacing: 2px;
+			line-height: 30px;
+			margin-top: 25px;
+			text-align: center;
+			font-weight: 300;
+			color: white;
+
+			}
+	/*-----------------SLOGAN END--------*/
+	/*-----------------HEADER START------------------*/
+		p#pealogo {
+			margin: 1px;
+			padding-right: 10px;
+			float: left;
+			font-size: 30px;
+			color: #00e6e6;
+			font-weight: bold;
+			font-stretch: extra-condensed;
+			margin-bottom: 10px;
+			position: fixed;
+			left: 15px;
+	    top: 20px;
+			opacity: 0.90
+			z-index: 0;
+
+	}
+
+	/*-----------------HEADER END------------------*/
+	/*-----------------MENU START------------------*/
+	ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: 0.45s;
+  font-size: 17px;
+}
+
+ul.topnav li a:hover {background-color: #555;}
+
+ul.topnav li.icon {display: none;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+
+		nav.menu {
+			margin-bottom: 10px;
+			height: 120px;
+
+		}
+
+		nav.menu ul {
+			list-style: none;
+			margin: 0;
+			padding-left: 10px;
+			position: fixed;
+			width: 100%;
+			left: 150px;
+			top: 20px;
+			z-index: 1;
+		}
+		nav.menu ul li {
+			float: left;
+			border-radius: 3px;
+			font-family: 'Fjalla One', sans-serif;
+			letter-spacing: 2px;
+			line-height: 30px;
+			margin-bottom: 1px;
+			text-align: center;
+			width: 15%;
+			max-width: 300px;
+
+		}
+		nav.menu li a{
+			/*background: #F1F1F1; /*menüü riba taustavärv tavaolekus - helehall  */
+		/*	display: block;
+			padding: 8px 8px;
+			font-size: 20px;
+			color: white;
+			text-decoration: none;
+			background: rgba(153, 153, 153, 0.70);
+		}
+
+	nav.menu #myTopnav li a {color: white; /*menüü fondi värv tavaline - valge*//*}
+	/*	nav.menu #myTopnav li a:hover {
+			transition: all 0.45s;
+			border-style: dotted;
+			border-width: thin;
+			color: #00e6e6; /*menüü fondi värv hover*/
+			/*}
+*/
+
+
+
+
+	/*-----------------MENU END------------------*/
+
+	/*-----------------CONTENT START------------------*/
+
+		.textBIG {
+			color: #999999;
+			font-family: 'PT Sans Narrow';
+			font-size: 18px;
+			text-align: justify;
+			margin-right: 30px;
+		}
+
+		h1 {
+			color: #00cccc;
+			font-family: 'Nixie One', cursive;
+			font-size: 28px;
+			font-weight: 500;
+			letter-spacing: 3px;
+			line-height: 30px;
+			margin: 10px;
+			text-align: left;
+			text-transform: uppercase;
+		}
+
+		h2 {
+			color: #00cccc;
+			font-family: 'Fjalla One', sans-serif;
+			font-size: 18px;
+			font-weight: 500;
+			letter-spacing: 3px;
+			line-height: 30px;
+			margin-left: 10px;
+			margin-bottom: 10px;
+			text-align: left;
+			text-transform: uppercase;
+		}
+
+		p, option {
+			color: #999999;
+			font-family: 'PT Sans Narrow';
+			font-size: 16px;
+			margin-left: 20px;
+		}
+
+		hr {
+			color: #999999;
+			width: 95%;
+		}
+
+		.clearfix {clear: both;}
+		/*-----------------CONTENT END------------------*/
+		/*----2-colums-layout----*/
+
+			.left {
+				float: left;
+				width: 45%;
+			}
+
+			.right {
+				float: right;
+				width: 45%;
+
+			}
+
+		/*----2-colums-layout----*/
+		/*-------GALLERY START-------*/
+
+			.thumbnails img {
+				height: 60px;
+				border: 0px solid #555;
+				padding: 1px;
+				margin: 1px 1px 1px 1px;
+				display: inline-block;
+			}
+
+			.thumbnails img:hover {
+				border: 1px solid #00ccff;
+				cursor: pointer;
+			}
+
+			.preview img {
+				border: 0px solid #444;
+				padding: 1px;
+				max-height: 600px;
+				max-width: 96%;
+				display: block;
+		    margin: auto;
+				opacity: 1;
+		}
+
+			.preview {
+					border: 0px solid #444;
+					padding: 1px;
+					max-height: 600px;
+					max-width: 96%;
+					display: block;
+					margin: auto;
+
+			}
+
+		/*-------GALLERY END-------*/
+		/*-------TABLE START-------*/
+
+				table {
+				    width:100%;
+						max-width: 500px;
+						color: #999999;
+						font-family: 'PT Sans Narrow';
+						font-size: 16px;
+						text-align: justify;
+						margin-right: 5px;
+				}
+				table, th, td {
+				    border: 1px solid black;
+				    border-collapse: collapse;
+				}
+				th, td {
+				    padding: 5px;
+				    text-align: left;
+				}
+				table#t01 tr:nth-child(even) {
+				    background-color: #eee;
+				}
+				table#t01 tr:nth-child(odd) {
+				   background-color:#fff;
+				}
+				table#t01 th {
+				    background-color: #e6005c;
+				    color: white;
+				}
+
+		/*-------TABLE END-------*/
+		/*----MEDIA QUERIES----*/
+
+		/*----Tablet----*/
+		@media screen and (max-width: 768px) {
+
+			p.slogan{
+				font-size: 24px;
+				letter-spacing: 2px;
+				line-height: 24px;
+				margin-top: 25px;
+				text-align: center;
+				}
+
+			nav.menu ul li {
+				margin: 5px 0;
+				padding: 0px;
+				text-align: center;
+				letter-spacing: 1px;
+				width: auto;
+			}
+
+			nav.menu ul li a{
+				margin-left: 5px;
+				margin-right: 5px;
+				padding: 8px 0;
+				font-size: 18px;
+				width: 100%;
+				line-height: 22px;
+			}
+
+			.left {
+				float: left;
+				width: 45%;
+			}
+
+			.right {
+				float: right;
+				width: 45%;
+			}
+			.leftarrow {
+				float: left;
+				width: 45%;
+			}
+
+			.rightarrow {
+				float: right;
+				width: 45%;
+			}
+
+			h1.link {
+				float: left;
+				display: block;
+			}
+
+
+			#preview img {
+				max-width: 96%;
+				opacity: 1;
+			}
+		}
+
+
+
+
+
+		@media screen and (max-width:680px) {
+		  ul.topnav li:not(:first-child) {display: none;}
+		  ul.topnav li.icon {
+		    float: right;
+		    display: inline-block;
+		  }
+		}
+
+		@media screen and (max-width:680px) {
+		  ul.topnav.responsive {position: relative;}
+		  ul.topnav.responsive li.icon {
+		    position: absolute;
+		    right: 0;
+		    top: 0;
+		  }
+		  ul.topnav.responsive li {
+		    float: none;
+		    display: inline;
+		  }
+		  ul.topnav.responsive li a {
+		    display: block;
+		    text-align: left;
+		  }
+		}
+
+
+
+
+
+
+
+		@media screen and (max-width: 550px) {
+
+			p#pealogo {
+				margin: 1px;
+				padding-right: 10px;
+				float: left;
+				font-size: 30px;
+				color: #00e6e6;
+				font-weight: bold;
+				font-stretch: extra-condensed;
+				margin-bottom: 10px;
+				position: fixed;
+				left: 15px;
+				top: 7px;
+				opacity: 0.90
+				z-index: 0;
+
+			}
+
+			nav.menu ul li {
+				float: none;
+				display: block;
+				width: 101%;
+				padding: 1px;
+				margin-left: 0px;
+				margin-right: 0px;
+				margin-top: 0;
+				margin-bottom: 0;
+				text-align: center;
+				z-index: 1;
+				letter-spacing: 1px;
+
+			}
+
+			.burger-nav {
+				display: block;
+				height: 35px;
+				width: 99%;
+				background: url(Pildid/burger.png) no-repeat 98% center;
+				background-color: #F1F1F1;
+				cursor: pointer;
+				margin-bottom: 1px;
+				margin-right: 0px;
+				z-index: 1;
+			}
+
+			#wrapper {
+				width: 100%;
+			}
+			/*---DROPDOWN MENU IMPORTANT START---*/
+			nav ul {
+				overflow: hidden;
+				height: 0;
+			}
+
+			nav ul.open {
+				margin-top: 22px;
+				height: auto;
+				width: 100%;
+			}
+			/*---DROPDOWN MENU IMPORTANT END---*/
+
+			.left, .right {
+				display: block;
+		        float: none;
+		        width: auto;
+		    }
+
+			p.textBIG {
+				width: 90%;
+				text-align: justify;
+				margin: 0 auto;
+				margin-top: 10px;
+			}
+
+			p.slogan{
+				font-size: 22px;
+				line-height: 22px;
+				margin-top: 20px;
+				letter-spacing: 1px;
+
+				}
+
+		}

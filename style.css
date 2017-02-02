@@ -1,0 +1,659 @@
+/*-----------------BACKGROUND IMAGE START--------*/
+html, body {
+  overflow-x: hidden;
+}
+
+body {
+		background: url(Pildid/artIII.jpg) no-repeat top center fixed; /* taustapildi lisamine */
+		background-size: cover;
+		width: 100%;
+		height: 100%;
+		font-size: 18px;
+	}
+/*-----------------BACKGROUND IMAGE END----------*/
+/*-----------------WHITE BACKGROUND BOX START----*/
+	#wrapper {
+		width: 80%;
+		height: 100%;
+		min-height: 800px;
+		margin: 0 -9999rem;
+		margin-top: 30px;
+		background: rgba(255, 255, 255, 0.95);
+		padding: 0.25rem 9999rem;
+		border-radius: 2px;
+		z-index: -1;
+
+	}
+
+/*-----------------WHITE BACKGROUND BOX END------*/
+/*-----------------SLOGAN START------*/
+	p.slogan{
+		font-size: 30px;
+		font-family: 'Open Sans Condensed', sans-serif;
+		/*font-family: 'Libre Baskerville', serif;*/
+		letter-spacing: 2px;
+		line-height: 30px;
+		margin-top: 25px;
+		text-align: center;
+		font-weight: 300;
+		color: white;
+
+		}
+/*-----------------SLOGAN END--------*/
+/*-----------------HEADER START------------------*/
+	p#pealogo {
+		margin: 1px;
+		padding-right: 10px;
+		float: left;
+		font-size: 30px;
+		color: #00e6e6;
+		font-weight: bold;
+		font-stretch: extra-condensed;
+		margin-bottom: 10px;
+		position: fixed;
+		left: 15px;
+    top: 20px;
+		opacity: 0.90
+		z-index: 0;
+
+}
+
+	img#logo {
+		margin: 1px;
+		padding-right: 10px;
+		float: left;
+
+	}
+/*-----------------HEADER END------------------*/
+/*-----------------BANNER START------------------*/
+	div#banner img {
+			text-align: center;
+			max-width: 100%;
+			height: auto;
+			width: auto;
+			margin-bottom: 20px;
+		}
+/*-----------------BANNER END------------------*/
+/*-----------------MENU START------------------*/
+	nav.menu {
+		margin-bottom: 10px;
+		height: 120px;
+
+	}
+
+	nav.menu ul {
+		list-style: none;
+		margin: 0;
+		padding-left: 10px;
+		position: fixed;
+		width: 100%;
+		left: 150px;
+		top: 20px;
+		z-index: 1;
+	}
+	nav.menu ul li {
+		float: left;
+		border-radius: 3px;
+		font-family: 'Fjalla One', sans-serif;
+		letter-spacing: 2px;
+		line-height: 30px;
+		margin-bottom: 1px;
+		text-align: center;
+		width: 15%;
+		max-width: 300px;
+		/*text-transform: uppercase;*/
+
+	}
+	nav.menu li a{
+		/*background: #F1F1F1; /*menüü riba taustavärv tavaolekus - helehall  */
+		display: block;
+		padding: 8px 8px;
+		font-size: 20px;
+		color: white;
+		text-decoration: none;
+		background: rgba(153, 153, 153, 0.70);
+
+
+	}
+nav.menu #menu_reg li a {color: white; /*menüü fondi värv tavaline - valge*/}
+	nav.menu #menu_reg li a:hover {
+		transition: all 0.45s;
+		border-style: dotted;
+		border-width: thin;
+		/*background: #737373; /*menüü taustavärv hover - tumehall*/
+		color: #00e6e6; /*menüü fondi värv hover*/
+		}
+
+/*-----------------MENU END------------------*/
+/*-----------------CONTACT START------------------*/
+	.contact {
+		color: #999999;
+		font-family: 'PT Sans Narrow';
+		font-size: 12px;
+	}
+
+	.contactBIG {
+		color: #999999;
+		font-family: 'PT Sans Narrow';
+		font-size: 18px;
+		text-align: left;
+		margin-left: 20px;
+
+	}
+/*-----------------CONTACT END------------------*/
+/*-----------------CONTENT START------------------*/
+	#luubigatydruk {
+		max-width: 90%;
+		size: 50%;
+		/*position: relative;*/
+		margin-left: 0px;
+	}
+	.textBIG {
+		color: #999999;
+		font-family: 'PT Sans Narrow';
+		font-size: 18px;
+		text-align: justify;
+		margin-right: 30px;
+	}
+
+	h1#mainText {
+		color: #737373;
+		border-style: solid;
+		border-color: #ffcc00;
+		border-radius: 10px;
+		border-width: thin;
+		width: 90%;
+		text-align: center;
+		letter-spacing: 3px;
+		line-height: 40px;
+		margin: auto;
+		padding: 0;
+		max-width: 70%;
+		display: block;
+	}
+
+	h1#mainText2 {
+		width: 90%;
+		text-align: center;
+		margin-bottom: 20px;
+		padding: 0;
+	}
+
+	h1#mainText3 {
+		color: #737373;
+		width: 100%;
+		text-align: center;
+		letter-spacing: 2px;
+		line-height: 40px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		padding: 5px;
+		float: none;
+	}
+
+	h1 {
+		color: #00cccc;
+		font-family: 'Nixie One', cursive;
+		font-size: 28px;
+		font-weight: 500;
+		letter-spacing: 3px;
+		line-height: 30px;
+		margin: 10px;
+		text-align: left;
+		text-transform: uppercase;
+	}
+
+	h2 {
+		color: #00cccc;
+		font-family: 'Fjalla One', sans-serif;
+		font-size: 18px;
+		font-weight: 500;
+		letter-spacing: 3px;
+		line-height: 30px;
+		margin-left: 10px;
+		margin-bottom: 10px;
+		text-align: left;
+		text-transform: uppercase;
+	}
+
+
+	h3 {
+		color: #00cccc;
+		font-family: 'Fjalla One', sans-serif;
+		font-size: 14px;
+		font-weight: 500;
+		letter-spacing: 2px;
+		line-height: 20px;
+		/*text-align: center;*/
+		text-transform: uppercase;
+	}
+
+	h5 {
+		color: #00cccc;
+		font-family: 'Fjalla One', sans-serif;
+		font-size: 14px;
+		font-weight: 500;
+		letter-spacing: 3px;
+		line-height: 30px;
+		margin-bottom: 10px;
+		text-align: left;
+	}
+
+	h6 {
+		color: #00cccc;
+		font-family: 'Fjalla One', sans-serif;
+		font-size: 14px;
+		font-weight: 500;
+		letter-spacing: 3px;
+		line-height: 30px;
+		margin-bottom: 10px;
+		text-align: left;
+		text-transform: uppercase;
+	}
+
+	#rules ul {
+		color: #a6a6a6;
+		font-family: 'Fjalla One', sans-serif;
+		font-size: 14px;
+		letter-spacing: 1px;
+		line-height: 20px;
+		margin-bottom: 1px;
+		text-align: left;
+		margin-top: -10px;
+		max-width: 820px;
+		list-style: square url("Pildid/hexagon.png");
+	}
+
+
+	p, option {
+		color: #999999;
+		font-family: 'PT Sans Narrow';
+		font-size: 16px;
+		margin-left: 20px;
+	}
+
+	hr {
+		color: #999999;
+		width: 100%;
+	}
+
+	.clearfix {clear: both;}
+
+	#banner img {
+		width: 99%;
+		display: block;
+	}
+
+	form {
+		display: block;
+		text-align: center;
+    }
+
+
+
+	input, textarea{
+		color: #00cccc;
+		font-family: 'PT Sans Narrow';
+		font-size: 16px;
+		width: 210px;
+		font-weight: normal;
+		text-align: center;
+		margin: 4px;
+	}
+
+	div.middle {
+		float: none;
+		width: 45%;
+	}
+
+
+/*-----------------CONTENT END------------------*/
+/*----2-colums-layout----*/
+
+	.left {
+		float: left;
+		width: 45%;
+	}
+
+	.right {
+		float: right;
+		width: 45%;
+		/*margin-left: -20px;
+		margin-right: 20px;*/
+	}
+
+/*----2-colums-layout----*/
+
+/*-------GALLERY START-------*/
+
+	.thumbnails img {
+		height: 60px;
+		border: 0px solid #555;
+		padding: 1px;
+		margin: 1px 1px 1px 1px;
+		display: inline-block;
+	}
+
+	.thumbnails img:hover {
+		border: 1px solid #00ccff;
+		cursor: pointer;
+	}
+
+	.preview img {
+		border: 0px solid #444;
+		padding: 1px;
+		max-height: 600px;
+		max-width: 96%;
+		display: block;
+    margin: auto;
+		opacity: 1;
+}
+
+	.preview {
+			border: 0px solid #444;
+			padding: 1px;
+			max-height: 600px;
+			max-width: 96%;
+			display: block;
+			margin: auto;
+
+	}
+
+/*-------GALLERY END-------*/
+/*-------TABLE START-------*/
+
+		table {
+		    width:100%;
+				max-width: 500px;
+				color: #999999;
+				font-family: 'PT Sans Narrow';
+				font-size: 16px;
+				text-align: justify;
+				margin-right: 5px;
+		}
+		table, th, td {
+		    border: 1px solid black;
+		    border-collapse: collapse;
+		}
+		th, td {
+		    padding: 5px;
+		    text-align: left;
+		}
+		table#t01 tr:nth-child(even) {
+		    background-color: #eee;
+		}
+		table#t01 tr:nth-child(odd) {
+		   background-color:#fff;
+		}
+		table#t01 th {
+		    background-color: #e6005c;
+		    color: white;
+		}
+
+/*-------TABLE END-------*/
+
+/*----MEDIA QUERIES----*/
+
+/*----Tablet----*/
+@media screen and (max-width: 768px) {
+
+	p.slogan{
+		font-size: 24px;
+		letter-spacing: 2px;
+		line-height: 24px;
+		margin-top: 25px;
+		text-align: center;
+		}
+
+	img#logo {
+		margin: 1px;
+		padding-right: 10px;
+		float: none;
+	}
+
+	nav.menu ul li {
+		margin: 5px 0;
+		width: 17%;
+		padding: 0;
+		text-align: center;
+		letter-spacing: 1px;
+	}
+
+	nav.menu ul li a{
+		padding: 8px 0;
+		font-size: 18px;
+		width: 100%;
+		line-height: 22px;
+	}
+
+	.left {
+		float: left;
+		width: 45%;
+	}
+
+	.right {
+		float: right;
+		width: 45%;
+	}
+	.leftarrow {
+		float: left;
+		width: 45%;
+	}
+
+	.rightarrow {
+		float: right;
+		width: 45%;
+	}
+
+	h1.link {
+		float: left;
+		display: block;
+	}
+
+	h1#mainText, h1#mainText2, h1#mainText3 {
+		font-size: 1em;
+	}
+
+	#preview img {
+		max-width: 96%;
+		opacity: 1;
+	}
+
+
+}
+
+@media screen and (max-width: 550px) {
+
+	mg#logo {
+		display: block;
+		float: none;
+		margin: auto;
+	}
+
+	nav.menu ul li {
+		float: none;
+		display: block;
+		width: 101%;
+		padding: 1px;
+		margin-left: 0px;
+		margin-right: 0px;
+		margin-top: 0;
+		margin-bottom: 0;
+		text-align: center;
+		z-index: 1;
+		letter-spacing: 1px;
+
+	}
+
+	.burger-nav {
+		display: block;
+		height: 35px;
+		width: 99%;
+		background: url(Pildid/burger.png) no-repeat 98% center;
+		background-color: #F1F1F1;
+		cursor: pointer;
+		margin-bottom: 1px;
+		margin-right: 0px;
+		z-index: 1;
+	}
+
+	#wrapper {
+		width: 100%;
+	}
+	/*---DROPDOWN MENU IMPORTANT START---*/
+	nav ul {
+		overflow: hidden;
+		height: 0;
+	}
+
+	nav ul.open {
+		margin-top: 0;
+		height: auto;
+	}
+	/*---DROPDOWN MENU IMPORTANT END---*/
+
+	.left, .right {
+		display: block;
+        float: none;
+        width: auto;
+    }
+
+	p.textBIG {
+		width: 90%;
+		text-align: justify;
+		margin: 0 auto;
+		margin-top: 10px;
+	}
+
+	p.contactBIG {
+		float: none;
+		display: block;
+		width: auto;
+		text-align: center;
+		margin-left: auto;
+		margin-top: 30px;
+
+	}
+
+
+	h1#mainText3{
+		color: #737373;
+		border-radius: 10px;
+	}
+
+	h1#mainText, h1#mainText2, h1#mainText3{
+		width: 90%;
+		text-align: center;
+		font-size: 1em;
+		margin: auto;
+		margin-top: 20px;
+		padding: 0;
+	}
+
+	p.slogan{
+		font-size: 22px;
+		line-height: 22px;
+		margin-top: 20px;
+		letter-spacing: 1px;
+
+		}
+
+}
+
+
+
+/*-------Mobile------------*/
+@media screen and (max-width: 480px) {
+	#luubigatydruk {
+		size: 20%;
+		position: relative;
+		margin: auto;
+		opacity: 0.5;
+	}
+
+	p.slogan{
+		font-size: 16px;
+		line-height: 18px;
+		letter-spacing: 1px;
+
+		}
+
+	.left, .right {
+		display: block;
+        float: none;
+        width: auto;
+    }
+
+
+	img#logo{
+		margin-top: 0px;
+		position: fixed;
+		display: block;
+		z-index: 2;
+		top: 0px;
+	}
+
+	p#pealogo{
+		margin-top: 0px;
+		position: fixed;
+		display: block;
+		z-index: 2;
+		top: 0px;
+	}
+
+	nav ul {
+		overflow: hidden;
+		height: 0;
+	}
+
+	nav ul.open {
+		height: auto;
+	}
+
+	a.burger-nav{
+		top: 0px;
+		position: fixed;
+		display: block;
+		width: 100%;
+		opacity: 0.90;
+	}
+
+	ul#menu_reg.open{
+		margin-top: 0px;
+		/*margin-top: 36px;*/
+		margin-bottom: 10px;
+		position: fixed;
+		display: block;
+		width: 100%;
+		opacity: 0.95;
+	}
+
+	ul#menu_diff.open{
+		margin-top: 152px;
+		/*margin-top: 188px;*/
+		margin-bottom: 10px;
+		position: fixed;
+		display: block;
+		width: 100%;
+		opacity: 0.95;
+	}
+
+	h1 {margin-top: 40px;}
+
+	h1#mainText, h1#mainText2, h1#mainText3{
+		width: 90%;
+		text-align: center;
+		font-size: 1em;
+		margin: auto;
+		margin-top: 20px;
+		padding: 0;
+	}
+
+	input {
+		font-size: 1em;
+	}
+
+	div#banner {
+		margin-top: 40px;
+	}
+}
