@@ -55,51 +55,46 @@ body {
 
 	/*-----------------HEADER END------------------*/
 	/*-----------------MENU START------------------*/
-		nav.menu {
-			margin-bottom: 10px;
-			height: 120px;
+	/* Remove margins and padding from the list, and add a black background color */
+ ul.topnav {
+		 list-style-type: none;
+		 margin: 0;
+		 padding: 0;
+		 margin-left: 150px;
+		 overflow: hidden;
+		 position: fixed;
+ }
 
-		}
+ /* Float the list items side by side */
+ ul.topnav li {float: left;}
 
-		nav.menu ul {
-			list-style: none;
-			margin: 0;
-			padding-left: 10px;
-			position: fixed;
-			width: 100%;
-			left: 150px;
-			top: 20px;
-			z-index: 1;
-		}
-		nav.menu ul li {
-			float: left;
-			border-radius: 3px;
-			font-family: 'Fjalla One', sans-serif;
-			letter-spacing: 2px;
-			line-height: 30px;
-			margin-bottom: 1px;
-			text-align: center;
-			width: 15%;
-			max-width: 300px;
+ /* Style the links inside the list items */
+ ul.topnav li a {
+		 display: inline-block;
+		 color: white;
+		 text-align: center;
+		 padding: 10px 10px;
+		 text-decoration: none;
+		 transition: 0.45s;
+		 font-size: 20px;
+		 font-family: 'Fjalla One', sans-serif;
+		 letter-spacing: 2px;
+		 line-height: 30px;
+		 background: rgba(153, 153, 153, 0.70)
+ }
 
-		}
-		nav.menu li a{
-			/*background: #F1F1F1; /*menüü riba taustavärv tavaolekus - helehall  */
-			display: block;
-			padding: 8px 8px;
-			font-size: 20px;
-			color: white;
-			text-decoration: none;
-			background: rgba(153, 153, 153, 0.70);
-		}
+ /* Change background color of links on hover */
+ ul.topnav li a:hover {
+	 transition: all 0.45s;
+	 border-style: dotted;
+	 border-width: thin;
+	 background-color: #555;
+	 color: #00e6e6;
+ }
 
-	nav.menu #menu li a {color: white; /*menüü fondi värv tavaline - valge*/}
-		nav.menu #menu li a:hover {
-			transition: all 0.45s;
-			border-style: dotted;
-			border-width: thin;
-			color: #00e6e6; /*menüü fondi värv hover*/
-			}
+ /* Hide the list item that contains the link that should open and close the topnav on small screens */
+ ul.topnav li.icon {display: none;}
+
 
 	/*-----------------MENU END------------------*/
 
@@ -246,23 +241,6 @@ body {
 				text-align: center;
 				}
 
-			nav.menu ul li {
-				margin: 5px 0;
-				padding: 0px;
-				text-align: center;
-				letter-spacing: 1px;
-				width: auto;
-			}
-
-			nav.menu ul li a{
-				margin-left: 5px;
-				margin-right: 5px;
-				padding: 8px 0;
-				font-size: 18px;
-				width: 100%;
-				line-height: 22px;
-			}
-
 			.left {
 				float: left;
 				width: 45%;
@@ -294,6 +272,54 @@ body {
 			}
 		}
 
+		/* When the screen is less than 680 pixels wide, hide all list items, except for the first one ("Home"). Show the list item that contains the link to open and close the topnav (li.icon) */
+	 @media screen and (max-width:680px) {
+		 ul.topnav li:not(:first-child) {display: none;}
+		 ul.topnav li.icon {
+			 float: right;
+			 display: inline-block;
+			 width: auto;
+		 }
+
+		 ul.topnav {
+			 margin-left: 0;
+			 margin-top: 40px;
+			 display: inline;
+			 width: 100%;
+		 }
+
+		 ul.topnav li.icon {
+			 margin-left: 0;
+			 margin-top: 0px;
+			 display: inline;
+		 }
+
+	 }
+
+	 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens */
+	 @media screen and (max-width:680px) {
+		 ul.topnav.responsive {
+			 position: fixed;
+			 margin-top: 40px;
+			 width: 100%;
+		 }
+
+		 ul.topnav.responsive li.icon {
+			 position: absolute;
+			 right: 0;
+			 top: 0;
+		 }
+		 ul.topnav.responsive li {
+			 float: none;
+			 display: inline;
+		 }
+		 ul.topnav.responsive li a {
+			 display: block;
+			 text-align: left;
+		 }
+	 }
+
+
 		@media screen and (max-width: 550px) {
 
 			p#pealogo {
@@ -313,48 +339,9 @@ body {
 
 			}
 
-			nav.menu ul li {
-				float: none;
-				display: block;
-				width: 101%;
-				padding: 1px;
-				margin-left: 0px;
-				margin-right: 0px;
-				margin-top: 0;
-				margin-bottom: 0;
-				text-align: center;
-				z-index: 1;
-				letter-spacing: 1px;
-
-			}
-
-			.burger-nav {
-				display: block;
-				height: 35px;
-				width: 99%;
-				background: url(Pildid/burger.png) no-repeat 98% center;
-				background-color: #F1F1F1;
-				cursor: pointer;
-				margin-bottom: 1px;
-				margin-right: 0px;
-				z-index: 1;
-			}
-
 			#wrapper {
 				width: 100%;
 			}
-			/*---DROPDOWN MENU IMPORTANT START---*/
-			nav ul {
-				overflow: hidden;
-				height: 0;
-			}
-
-			nav ul.open {
-				margin-top: 22px;
-				height: auto;
-				width: 100%;
-			}
-			/*---DROPDOWN MENU IMPORTANT END---*/
 
 			.left, .right {
 				display: block;
@@ -378,91 +365,3 @@ body {
 				}
 
 		}
-
-
-		/* Remove margins and padding from the list, and add a black background color */
-	 ul.topnav {
-	     list-style-type: none;
-	     margin: 0;
-	     padding: 0;
-			 margin-left: 150px;
-	     overflow: hidden;
-			 position: fixed;
-	 }
-
-	 /* Float the list items side by side */
-	 ul.topnav li {float: left;}
-
-	 /* Style the links inside the list items */
-	 ul.topnav li a {
-	     display: inline-block;
-	     color: white;
-	     text-align: center;
-	     padding: 10px 10px;
-	     text-decoration: none;
-	     transition: 0.45s;
-	     font-size: 20px;
-			 font-family: 'Fjalla One', sans-serif;
-			 letter-spacing: 2px;
-			 line-height: 30px;
-			 background: rgba(153, 153, 153, 0.70)
-	 }
-
-	 /* Change background color of links on hover */
-	 ul.topnav li a:hover {
-		 transition: all 0.45s;
-		 border-style: dotted;
-		 border-width: thin;
-		 background-color: #555;
-		 color: #00e6e6;
-	 }
-
-	 /* Hide the list item that contains the link that should open and close the topnav on small screens */
-	 ul.topnav li.icon {display: none;}
-
-	 /* When the screen is less than 680 pixels wide, hide all list items, except for the first one ("Home"). Show the list item that contains the link to open and close the topnav (li.icon) */
-	@media screen and (max-width:680px) {
-	  ul.topnav li:not(:first-child) {display: none;}
-	  ul.topnav li.icon {
-	    float: right;
-	    display: inline-block;
-			width: auto;
-	  }
-
-		ul.topnav {
-			margin-left: 0;
-			margin-top: 40px;
-			display: inline;
-			width: 100%;
-		}
-
-		ul.topnav li.icon {
-			margin-left: 0;
-			margin-top: 0px;
-			display: inline;
-		}
-
-	}
-
-	/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens */
-	@media screen and (max-width:680px) {
-	  ul.topnav.responsive {
-			position: fixed;
-			margin-top: 40px;
-			width: 100%;
-		}
-
-	  ul.topnav.responsive li.icon {
-	    position: absolute;
-	    right: 0;
-	    top: 0;
-	  }
-	  ul.topnav.responsive li {
-	    float: none;
-	    display: inline;
-	  }
-	  ul.topnav.responsive li a {
-	    display: block;
-	    text-align: left;
-	  }
-	}
