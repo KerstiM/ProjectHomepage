@@ -1,7 +1,7 @@
 /*-----------------BACKGROUND IMAGE START----------*/
 body {
 		overflow-x: hidden;
-		background: url(Pildid/artIII.jpg) no-repeat top center fixed; /* taustapildi lisamine */
+		background: url(Pildid/VEKTOR01_1.png) no-repeat top center fixed; /* taustapildi lisamine */
 		background-size: cover;
 		width: 100%;
 		height: 100%;
@@ -28,8 +28,8 @@ body {
 			font-size: 30px;
 			font-family: 'Open Sans Condensed', sans-serif;
 			letter-spacing: 2px;
-			line-height: 30px;
-			margin-top: 25px;
+			margin-top: 40px;
+			margin-bottom: 40px;
 			text-align: center;
 			font-weight: 300;
 			color: white;
@@ -37,36 +37,31 @@ body {
 			}
 	/*-----------------SLOGAN END--------*/
 	/*-----------------HEADER START------------------*/
-		p#pealogo {
-			margin: 1px;
-			padding-right: 10px;
-			float: left;
-			font-size: 30px;
-			color: #00e6e6;
-			font-weight: bold;
-			font-stretch: extra-condensed;
-			margin-bottom: 10px;
-			position: fixed;
-			left: 15px;
-	    top: 10px;
-			opacity: 0.90
-			z-index: 0;
 
-	}
+	img#logo {
+		padding-right: 10px;
+		float: left;
+		margin-bottom: 10px;
+		position: fixed;
+		top: 5px;
+		margin-left: 5px;
+		z-index: 0;
+
+}
 
 	/*-----------------HEADER END------------------*/
 	/*-----------------MENU START------------------*/
-	/* Remove margins and padding from the list, and add a black background color */
+	/* Remove margins and padding from the list, and add a background color */
  ul.topnav {
 		 list-style-type: none;
-		 margin: 0;
 		 padding: 0;
 		 overflow: hidden;
 		 position: fixed;
 		 width: 100%;
-	   top: 17px;
 		 z-index: 1;
-		 margin-left: 50px
+		 top: 0px;
+		 margin-left: 220px;
+
 		}
 
  /* Float the list items side by side */
@@ -74,22 +69,22 @@ body {
 	 	float: left;
 		border-radius: 3px;
 		font-family: 'Fjalla One', sans-serif;
+		font-size: 22px;
 		letter-spacing: 2px;
-		line-height: 25px;
-		margin-bottom: 1px;
+		line-height: 30px;
 		text-align: center;
 		width: 17%;
-		max-width: 400px;
+		max-width: 500px;
+		display: inline-block;
  }
 
  /* Style the links inside the list items */
  ul.topnav li a {
 	 display: block;
 	 padding: 4px 4px;
-	 font-size: 20px;
 	 color: white;
 	 text-decoration: none;
-		background: rgba(153, 153, 153, 0.70);
+	 background: rgba(153, 153, 153, 0.70);
  }
 
  /* Change background color of links on hover */
@@ -242,6 +237,17 @@ body {
 		/*----Tablet----*/
 		@media screen and (max-width: 768px) {
 
+			ul.topnav li {
+				font-size: 18px;
+				width: auto;
+			}
+
+			ul.topnav li a {
+		 	 display: block;
+		 	 padding: 4px 4px;
+		 }
+
+
 			p.slogan{
 				font-size: 24px;
 				letter-spacing: 2px;
@@ -280,17 +286,24 @@ body {
 				opacity: 1;
 			}
 		}
+		@media screen and (max-width: 550px) {
+			ul.topnav li {
+				font-size: 14px;
+				width: auto;
+			}
 
-		/* When the screen is less than 680 pixels wide, hide all list items, except for the first one ("Home"). Show the list item that contains the link to open and close the topnav (li.icon) */
-	 @media screen and (max-width:680px) {
+			}
+
+		/* When the screen is less than 480 pixels wide, hide all list items, except for the first one ("Home"). Show the list item that contains the link to open and close the topnav (li.icon) */
+	 @media screen and (max-width:480px) {
 		 #wrapper {
 	 		width: 100%;
 	 	}
 
 		 p.slogan{
-			 font-size: 20px;
+			 font-size: 18px;
 			 letter-spacing: 2px;
-			 line-height: 24px;
+			 line-height: 20px;
 			 text-align: center;
 			 }
 
@@ -298,13 +311,12 @@ body {
 		 ul.topnav li.icon {
 			 float: right;
 			 display: inline-block;
-			 width: auto;
-			 margin-right: 8px;
+			 margin-right: 9px;
 		 }
 
 		 ul.topnav {
 			 margin-left: 0;
-			 margin-top: 40px;
+			 margin-top: 60px;
 			 display: inline;
 			 width: 100%;
 		 }
@@ -315,14 +327,16 @@ body {
 			 display: inline;
 		 }
 
+
+
 	 }
 
 	 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens */
-	 @media screen and (max-width:680px) {
+	 @media screen and (max-width:480px) {
 		 ul.topnav.responsive {
 			 position: fixed;
-			 margin-top: 40px;
-			 margin-right: 15px;
+			 margin-top: 60px;
+			 margin-left: 0;
 			 width: 100%;
 		 }
 
@@ -341,27 +355,26 @@ body {
 			 margin-left: 8px;
 
 		 }
+
+		 p.textBIG {
+			 width: 90%;
+			 text-align: justify;
+			 margin: 0 auto;
+			 margin-top: 10px;
+		 }
+
+		 .left, .right {
+		 	display: block;
+		 			float: none;
+		 			width: auto;
+		 	}
+
 	 }
 
+/*
+		@media screen and (max-width: 480px) {
 
-		@media screen and (max-width: 550px) {
 
-			p#pealogo {
-				margin: 1px;
-				padding-right: 10px;
-				float: left;
-				font-size: 30px;
-				color: #00e6e6;
-				font-weight: bold;
-				font-stretch: extra-condensed;
-				margin-bottom: 10px;
-				position: fixed;
-				left: 15px;
-				top: 7px;
-				opacity: 0.90
-				z-index: 0;
-
-			}
 
 			#wrapper {
 				width: 100%;
@@ -389,3 +402,5 @@ body {
 				}
 
 		}
+
+		*/

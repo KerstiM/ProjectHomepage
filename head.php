@@ -14,8 +14,8 @@
 		<meta name="viewport" content="width=device-width, inital-scale=1.0">
 	</head>
 	<body>
-		<!--	<a href="?page=main"><img id="logo" src="Pildid/logo.png" alt="Logo" style= "width:110px;height:35px;"></a> -->
-			<a href="?page=main"><p id="pealogo">kersti miller</p></a>
+		  <a href="?page=main"><img id="logo" src="Pildid/kerstimiller.png" alt="Logo" height="66,5" width="200"></a>
+<!--			<a href="?page=main"><p id="pealogo">kersti miller</p></a>-->
 <!--
 			<nav class="menu">
 			<a class="burger-nav"></a>
@@ -33,7 +33,7 @@
 -->
 
 		<ul class="topnav" id="myTopnav">
-		 <li></li>
+		 <!--<li><a href="?page=main"><img id="logo" src="Pildid/logo.png" alt="Logo"></a></li>-->
 		 <li><a class="active" href="?page=main">web+disain</a></li>
 		 <li><a href="?page=workshop">koolitused</a></li>
 		 <li><a href="?page=cv">cv</a></li>
@@ -43,6 +43,6 @@
 		 </li>
 		</ul><br/><br/>
 
-		<p class="slogan">disain, küljendus, kodulehed & koolitused</p>
+		<p class="slogan">disain, kodulehed & koolitused</p>
 			<div class="clearfix"></div>
 		<div id="wrapper">
