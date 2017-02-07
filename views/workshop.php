@@ -2,104 +2,45 @@
 <br/>
 
 			<p class="textBIG">
-				Kui soovid endale veebilehte, plakatit, raamatut, reklaammaterjale või veebibännerit, siis saan Sind aidata.
-				Kui aga tahaksid ise asjadega tegeleda, aga oskustest jääb puudu, siis saan Sind aidata päris mitmete programmide
-				õppimisel. Kas oled mõelnud, et sooviksid osata mõnda kujundusprogrammi või programmeerimiskeelt?
-				Äkki hoopis tahaksid rohkem teada CAD programmidest ja 3D mudeldamisest? Osata ette valmistada laserlõikuseks või
-				3D printimiseks faile? Kui Sa ei ole see inimene, kes tahaks kõike üksi teha, siis võta minuga ühendust.
-				Saan Sind aidata asjaga algust teha ja läbi viia personaalseid või gruppidele mõeldud koolitusi.<br/><br/>
+				Soovid endale veebilehte, plakatit, raamatut, reklaammaterjale või veebibännerit?
+				Vajad CAD jooniseid või 3D mudelit? Saan Sind aidata.
+				Kui aga tahaksid ise asjadega tegeleda, aga ei tea kuidas, siis saan Sind aidata päris mitmete oskuste omandamisel.
+				Olen hobide, kooli ja tööga seoses õppinud ja kasutanud:<br/><br/>
+				<h3>Programmid</h3>
+				<h4>Adobe Creative Suite (Photoshop, InDesign, Illustrator)</h4>
+			 	<h4>AutoCAD</h4>
+			 	<h4>Rhinoceros 3D</h4>
+				<h3>Programmeerimiskeeled ja sisuhaldus</h3>
+			 	<h4>HTML</h4>
+				<h4>CSS</h4>
+			 	<h4>WordPress</h4>
+			</p>
 
+			<p class="textBIG">
+				Saan Sind aidata asjaga algust teha ja läbi viia personaalseid või gruppidele mõeldud koolitusi. Kirjuta mulle ja räägi oma ideest. Koos paneme paika just Sulle sobiva kava ja lepime kokku hinnas.<br/><br/>
 
-				Saan Sind aidata:<br/><br/>
-
-				Adobe Creative Suite (Photoshop, InDesign, Illustrator)<br/><br/>
-				AutoCAD<br/><br/>
-				Rhinoceros 3D<br/><br/>
-				HTML, CSS<br/><br/>
-				WordPress<br/><br/>
 			</p>
 	<br/>
 
+<!--
 	<h1>Hinnakiri</h1>
 			<p class="textBIG">
 
-						<table id="t01">
+						<table class="t01">
 							<tr>
 						    <th></th>
 						    <th colspan="3">HINNAD (KM-ta)</th>
 						  </tr>
 							<tr>
 						    <td>Koolitused</td>
-						    <td colspan="3">alates 50 €/in</td>
-						  </tr>
-							<tr>
-						    <td>Disain</td>
-						    <td colspan="3">alates 50 €</td>
-						  </tr>
-							<tr>
-						    <td>HTML+CSS+JS koduleht</td>
-						    <td colspan="3">alates 500 €</td>
-						  </tr>
-						  <tr>
-						    <th>VEEBITEENUS / PAKETT</th>
-						    <th>LIHTNE<br/>199 €</th>
-						    <th>KENA<br/>299 €</th>
-								<th>ASJALIK<br/>399 €</th>
-						  </tr>
-						  <tr>
-						    <td>Domeeni registreerimine</td>
-						    <td>+</td>
-						    <td>+</td>
-								<td>+</td>
-						  </tr>
-						  <tr>
-								<td>Veebilehe majutus</td>
-								<td>+</td>
-								<td>+</td>
-								<td>+</td>
-						  </tr>
-						  <tr>
-								<td>Wordpressi/Joomla teema valik</td>
-						    <td>+</td>
-						    <td>+</td>
-								<td>+</td>
-						  </tr>
-							<tr>
-								<td>Wordpressi/Joomla install ja seadistamine</td>
-						    <td>+</td>
-						    <td>+</td>
-								<td>+</td>
-						  </tr>
-							<tr>
-								<td>Teksti ja piltide üles panek</td>
-						    <td>-</td>
-						    <td>+</td>
-								<td>+</td>
-						  </tr>
-							<tr>
-								<td>Moodulite ja lehtede lisamine</td>
-						    <td>-</td>
-						    <td>-</td>
-								<td>+</td>
-						  </tr>
-							<tr>
-								<td>Sotsiaalmeedia kanalite loomine</td>
-						    <td>-</td>
-						    <td>-</td>
-								<td>+</td>
-						  </tr>
-							<tr>
-								<td>Meililisti loomine</td>
-						    <td>-</td>
-						    <td>-</td>
-								<td>+</td>
+						    <td colspan="3">alates 50€/in</td>
 						  </tr>
 						</table>
 						<br>
 					</p>
 					<br/>
 
-
+	-->
 <!--
 	<div class="gallery">
 			<div class="thumbnails">

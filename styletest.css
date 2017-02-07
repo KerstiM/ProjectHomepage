@@ -1,7 +1,7 @@
 /*-----------------BACKGROUND IMAGE START----------*/
 body {
 		overflow-x: hidden;
-		background: url(Pildid/VEKTOR01_1.png) no-repeat top center fixed; /* taustapildi lisamine */
+		background: url(Pildid/VEKTOR01_1.png) no-repeat top center fixed;
 		background-size: cover;
 		width: 100%;
 		height: 100%;
@@ -9,17 +9,16 @@ body {
 	}
 /*-----------------BACKGROUND IMAGE END----------*/
 /*-----------------WHITE BACKGROUND BOX START----*/
-	#wrapper {
-		width: 80%;
-		height: 100%;
-		min-height: 800px;
-		margin: 0 -9999rem;
-		margin-top: 30px;
-		background: rgba(255, 255, 255, 0.95);
-		padding: 0.25rem 9999rem;
-		border-radius: 2px;
-		z-index: -1;
 
+	div#wrapper {
+		margin: auto;
+		width: 80%;
+		max-width: 1600px;
+		padding: 2%;
+		margin-top: 25px;
+		/*background: rgba(255, 255, 255, 0.95);*/
+		z-index: -1;
+		border-radius: 3px;
 	}
 
 	/*-----------------WHITE BACKGROUND BOX END------*/
@@ -51,7 +50,7 @@ body {
 
 	/*-----------------HEADER END------------------*/
 	/*-----------------MENU START------------------*/
-	/* Remove margins and padding from the list, and add a background color */
+	/* Remove margins and padding from the list */
  ul.topnav {
 		 list-style-type: none;
 		 padding: 0;
@@ -101,13 +100,83 @@ body {
 
 
 	/*-----------------MENU END------------------*/
+	a.nohover:link{
+ 		text-decoration:none;
+	}
+
+	div.content_wrapper{
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+	}
+
+	div.project_thumb{
+		margin: 15px 5px 15px 5px;
+		padding: 5px 5px 5px 5px;
+		float: left;
+		display: block;
+		max-width: 250px;
+    -webkit-column-width: 250px; /* Chrome, Safari, Opera */
+    -moz-column-width: 250px; /* Firefox */
+    column-width: 250px;
+	}
+
+	img.project_img{
+		margin: 20px auto 20px auto;
+		display: block;
+	}
+
+	.project_pic{
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+	}
+
+	.project_title{
+		color: #999999;
+		font-family: 'PT Sans Narrow';
+		font-size: 19px;
+		line-height: 1.5;
+		text-align: justify;
+		max-width: 220px;
+		text-transform: uppercase;
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+	}
+
+	.project_text{
+		color: #999999;
+		font-family: 'PT Sans Narrow';
+		font-size: 16px;
+		line-height: 1.5;
+		text-align: justify;
+		max-width: 220px;
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+	}
+
+.project_thumb:hover{
+	border: 0px solid #000000;
+	background-color: white;
+	border-style: dotted;
+	border-radius: 3px;
+}
+
+.nohover{
+
+}
+
+
 
 	/*-----------------CONTENT START------------------*/
 
 		.textBIG {
 			color: #999999;
 			font-family: 'PT Sans Narrow';
-			font-size: 18px;
+			font-size: 19px;
+			line-height: 25px;
 			text-align: justify;
 			margin-right: 30px;
 		}
@@ -115,7 +184,7 @@ body {
 		h1 {
 			color: #00cccc;
 			font-family: 'Nixie One', cursive;
-			font-size: 28px;
+			font-size: 32px;
 			font-weight: 500;
 			letter-spacing: 3px;
 			line-height: 30px;
@@ -127,7 +196,7 @@ body {
 		h2 {
 			color: #00cccc;
 			font-family: 'Fjalla One', sans-serif;
-			font-size: 18px;
+			font-size: 20px;
 			font-weight: 500;
 			letter-spacing: 3px;
 			line-height: 30px;
@@ -137,10 +206,29 @@ body {
 			text-transform: uppercase;
 		}
 
-		p, option {
+		h3 {
+			color: #00cccc;
+			font-family: 'Fjalla One', sans-serif;
+			font-size: 18px;
+			font-weight: normal;
+			letter-spacing: 2px;
+			margin-left: 25px;
+			text-transform: uppercase;
+		}
+		h4 {
+			color: #00cccc;
+			font-family: 'Fjalla One', sans-serif;
+			font-size: 18px;
+			font-weight: lighter;
+			letter-spacing: 1px;
+			line-height: 18px;
+			margin-left: 50px;
+		}
+
+		p {
 			color: #999999;
 			font-family: 'PT Sans Narrow';
-			font-size: 16px;
+			font-size: 18px;
 			margin-left: 20px;
 		}
 
@@ -201,16 +289,18 @@ body {
 			}
 
 		/*-------GALLERY END-------*/
+
 		/*-------TABLE START-------*/
 
 				table {
 				    width:100%;
-						max-width: 500px;
+						max-width: 700px;
 						color: #999999;
 						font-family: 'PT Sans Narrow';
-						font-size: 16px;
+						font-size: 18px;
 						text-align: justify;
-						margin-right: 5px;
+						margin-right: auto;
+						margin-left: auto;
 				}
 				table, th, td {
 				    border: 1px solid black;
@@ -220,22 +310,33 @@ body {
 				    padding: 5px;
 				    text-align: left;
 				}
-				table#t01 tr:nth-child(even) {
+				table.t01 tr:nth-child(even) {
 				    background-color: #eee;
 				}
-				table#t01 tr:nth-child(odd) {
+				table.t01 tr:nth-child(odd) {
 				   background-color:#fff;
 				}
-				table#t01 th {
+				table.t01 th {
 				    background-color: #e6005c;
 				    color: white;
 				}
 
 		/*-------TABLE END-------*/
+
+
 		/*----MEDIA QUERIES----*/
 
 		/*----Tablet----*/
 		@media screen and (max-width: 768px) {
+
+			div#wrapper {
+			 margin-left: -10px;
+			 width: 100%;
+			 padding: 2%;
+			 margin-top: 25px;
+			 z-index: -1;
+			}
+
 
 			ul.topnav li {
 				font-size: 18px;
@@ -286,6 +387,9 @@ body {
 				opacity: 1;
 			}
 		}
+
+
+
 		@media screen and (max-width: 550px) {
 			ul.topnav li {
 				font-size: 14px;
@@ -296,17 +400,49 @@ body {
 
 		/* When the screen is less than 480 pixels wide, hide all list items, except for the first one ("Home"). Show the list item that contains the link to open and close the topnav (li.icon) */
 	 @media screen and (max-width:480px) {
-		 #wrapper {
-	 		width: 100%;
-	 	}
 
-		 p.slogan{
-			 font-size: 18px;
-			 letter-spacing: 2px;
-			 line-height: 20px;
-			 text-align: center;
+		 img#logo {
+	 		float: left;
+	 		margin-bottom: 2px;
+	 		position: fixed;
+	 		margin-top: -12px;
+	 		margin-left: 2px;
+	 		z-index: 0;
+
+	 }
+	 div#wrapper {
+	 	margin-left: -10px;
+	 	width: 100%;
+	 	padding: 2%;
+	 	margin-top: 25px;
+	 	z-index: -1;
+	 }
+
+		p.slogan{
+			font-size: 18px;
+			letter-spacing: 2px;
+			margin-top: 30px;
+			margin-left: 10px;
+			margin-bottom: 20px;
+			text-align: left;
+		}
+
+			 ul.topnav {
+				 display: inline;
+				 margin-left: 10px;
+				 margin-top: 2px;
 			 }
+			 ul.topnav li {
+ 				font-size: 18px;
+ 				width: auto;
+				margin-top: 40px;
+				float: left;
+ 			}
 
+ 			ul.topnav li a {
+ 		 	 padding: 4px 4px;
+ 		 }
+/*
 		 ul.topnav li:not(:first-child) {display: none;}
 		 ul.topnav li.icon {
 			 float: right;
@@ -328,11 +464,13 @@ body {
 		 }
 
 
-
+*/
 	 }
 
 	 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens */
 	 @media screen and (max-width:480px) {
+
+		 /*
 		 ul.topnav.responsive {
 			 position: fixed;
 			 margin-top: 60px;
@@ -355,7 +493,7 @@ body {
 			 margin-left: 8px;
 
 		 }
-
+*/
 		 p.textBIG {
 			 width: 90%;
 			 text-align: justify;

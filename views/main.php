@@ -3,6 +3,79 @@
 
 <br/>
 
+<div class="content_wrapper">
+		<div class="project_thumb">
+			<a class="nohover" href="" onmouseover="this.className="hover";" onmouseout="this.className="nohover";">
+				<div class="project_pic">
+					<img class="project_img" src="Pildid/dgskype.png" width="220" height="312" border="0">
+				</div>
+				<div class="project_title">
+					<span class="title">Digigirls@Skype</span>
+				</div>
+				<div class="project_text">
+					Poster Tech Sistersi poolt korraldatavale üritustersarja Digigirls üritusele
+				</div>
+			</a>
+		</div> <!--digigirls skype-->
+		<div class="project_thumb">
+			<a class="nohover" href="" onmouseover="this.className="hover";" onmouseout="this.className="nohover";">
+				<div class="project_pic">
+					<img class="project_img" src="Pildid/dgnortalI.png" width="220" height="312" border="0">
+				</div>
+				<div class="project_title">
+					<span class="title">Digigirls@Nortal</span>
+				</div>
+				<div class="project_text">
+					Poster Tech Sistersi poolt korraldatavale üritustersarja Digigirls üritusele
+				</div>
+			</a>
+		</div><!--digigirls nortal testposter--><!--digigirls nortal-->
+		<div class="project_thumb">
+			<a class="nohover" href="" onmouseover="this.className="hover";" onmouseout="this.className="nohover";">
+				<div class="project_pic">
+					<img class="project_img" src="Pildid/axo4.PNG" width="220" height="157" border="0">
+				</div>
+				<div class="project_title">
+					<span class="title">Aksonomeetriline lõige</span>
+				</div>
+				<div class="project_text">
+					Kortermaja projekti lõige. Akadeemiline töö
+				</div>
+			</a>
+		</div><!--kortermaja axo-->
+		<div class="project_thumb">
+			<a class="nohover" href="" onmouseover="this.className="hover";" onmouseout="this.className="nohover";">
+				<div class="project_pic">
+					<img class="project_img" src="Pildid/renderI.PNG" width="220" height="132" border="0">
+				</div>
+				<div class="project_title">
+					<span class="title">Koolimaja render + fototöötlus</span>
+				</div>
+				<div class="project_text">
+					Akadeemiline töö
+				</div>
+			</a>
+		</div><!--koolimaja ender-->
+		<div class="project_thumb">
+			<a class="nohover" href="" onmouseover="this.className="hover";" onmouseout="this.className="nohover";">
+				<div class="project_pic">
+					<img class="project_img" src="Pildid/axoII.PNG" width="220" height="95" border="0">
+				</div>
+				<div class="project_title">
+					<span class="title">Aksonomeetriline lõige</span>
+				</div>
+				<div class="project_text">
+					Koolimaja projekti lõige. Akadeemiline töö
+				</div>
+			</a>
+		</div><!--koolimaja axo-->
+		
+
+</div>
+
+<br/><br/><br/>
+
+<!--
 <div class="gallery">
 		<div class="thumbnails">
 			<a href="?page=dgskype"><img onmouseover="getElementById('preview').src=getElementById('img1').src" id="img1" src="Pildid/dgskype.png" alt="1" /></a>
@@ -34,24 +107,86 @@
 		<div class="preview">
 			<img id="preview" src="Pildid/dgskype.png" alt="preview" />
 		</div>
-
+		<br/><br/><br/>
+-->
 <!--
 		<a class="pimg"><img src="Pildid/dgskype.png"></a>
 		<!--<div class="portfolio">Skype Digigirls event poster</div>-->
 	<!--	<div class="portfolio">Skype Digigirls event poster</div>-->
 
-
+<!--
 </div>
+			<h1>Hinnakiri</h1>
+					<p class="textBIG">
 
-		<div class="left">
-			<h1 id="mainText2"></h1>
-		</div>
-
-		<div class="right">
-
-			<div id="rules">
-				<ul>
-
-				</ul>
-			</div>
-		</div>
+								<table class="t01">
+									<tr>
+								    <th></th>
+								    <th colspan="3">HINNAD (KM-ta)</th>
+								  </tr>
+									<tr>
+								    <td>Disain</td>
+								    <td colspan="3">alates 25€</td>
+								  </tr>
+									<tr>
+								    <td>HTML+CSS+JS koduleht</td>
+								    <td colspan="3">alates 399€</td>
+								  </tr>
+								  <tr>
+								    <th>VEEBITEENUS / PAKETT</th>
+								    <th>LIHTNE<br/>199€</th>
+								    <th>KENA<br/>299€</th>
+										<th>ASJALIK<br/>399€</th>
+								  </tr>
+								  <tr>
+								    <td>Domeeni registreerimine</td>
+								    <td>+</td>
+								    <td>+</td>
+										<td>+</td>
+								  </tr>
+								  <tr>
+										<td>Veebilehe majutus</td>
+										<td>+</td>
+										<td>+</td>
+										<td>+</td>
+								  </tr>
+								  <tr>
+										<td>Wordpressi/Joomla teema valik</td>
+								    <td>+</td>
+								    <td>+</td>
+										<td>+</td>
+								  </tr>
+									<tr>
+										<td>Wordpressi/Joomla install ja seadistamine</td>
+								    <td>+</td>
+								    <td>+</td>
+										<td>+</td>
+								  </tr>
+									<tr>
+										<td>Teksti ja piltide üles panek</td>
+								    <td>-</td>
+								    <td>+</td>
+										<td>+</td>
+								  </tr>
+									<tr>
+										<td>Moodulite ja lehtede lisamine</td>
+								    <td>-</td>
+								    <td>-</td>
+										<td>+</td>
+								  </tr>
+									<tr>
+										<td>Sotsiaalmeedia kanalite loomine</td>
+								    <td>-</td>
+								    <td>-</td>
+										<td>+</td>
+								  </tr>
+									<tr>
+										<td>Meililisti loomine</td>
+								    <td>-</td>
+								    <td>-</td>
+										<td>+</td>
+								  </tr>
+								</table>
+								<br>
+							</p>
+	-->
