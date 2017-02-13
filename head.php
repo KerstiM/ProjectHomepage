@@ -9,6 +9,7 @@
 			<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
 			<link href="https://fonts.googleapis.com/css?family=Nixie+One" rel="stylesheet">
 			<link href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700' rel='stylesheet' type='text/css'>
+			<link rel="stylesheet" href="/lib/w3.css">
 			<script type="text/javascript" src="Pildid/js/jquery-2.2.4.min.js"></script>
 			<script type="text/javascript" src="Pildid/js/jquery.cycle2.min.js"></script>
 		<meta name="viewport" content="width=device-width, inital-scale=1.0">
@@ -36,8 +37,8 @@
 		 <!--<li><a href="?page=main"><img id="logo" src="Pildid/logo.png" alt="Logo"></a></li>-->
 		 <li><a class="active" href="?page=main">web+disain</a></li>
 		 <li><a href="?page=workshop">koolitused</a></li>
-		 <li><a href="?page=cv">cv</a></li>
-		 <li><a href="?page=contact">kontakt</a></li>
+		 <li><a href="?page=cv">minust</a></li>
+		 <!--<li><a href="?page=contact">blog</a></li>-->
 		 <li class="icon">
 			 <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
 		 </li>

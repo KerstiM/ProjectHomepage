@@ -2,8 +2,10 @@
 	<h1>KONTAKT</h1>
 	<br>
 	<p class="textBIG">
-		info.khcreative@gmail.com<br/>
+		Kirjuta mulle: info.khcreative@gmail.com<br/>
 		<br/><br/>
+
+		Vastan esimesel võimalusel
 	</p>
 <!--
 		div class="left">

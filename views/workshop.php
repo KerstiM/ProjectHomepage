@@ -1,11 +1,13 @@
-<h1>koolitused</h1>
+<h1>koolitused & konsultatsioon</h1>
 <br/>
 
 			<p class="textBIG">
 				Soovid endale veebilehte, plakatit, raamatut, reklaammaterjale või veebibännerit?
 				Vajad CAD jooniseid või 3D mudelit? Saan Sind aidata.
 				Kui aga tahaksid ise asjadega tegeleda, aga ei tea kuidas, siis saan Sind aidata päris mitmete oskuste omandamisel.
+				Saan Sind aidata asjaga algust teha ja läbi viia personaalseid või gruppidele mõeldud koolitusi. <a href="?page=cv"><span style="color:#ff9933">Kirjuta mulle</span></a> ja räägi oma ideest. Koos paneme paika just Sulle sobiva kava ja lepime kokku hinnas.<br/><br/>
 				Olen hobide, kooli ja tööga seoses õppinud ja kasutanud:<br/><br/>
+<!--
 				<h3>Programmid</h3>
 				<h4>Adobe Creative Suite (Photoshop, InDesign, Illustrator)</h4>
 			 	<h4>AutoCAD</h4>
@@ -14,10 +16,26 @@
 			 	<h4>HTML</h4>
 				<h4>CSS</h4>
 			 	<h4>WordPress</h4>
+-->
+
+
+				<h3>Disain ja kujundus:</h3>
+					<h4>Adobe Photoshop</h4>
+					<h4>Adobe InDesign</h4>
+					<h4>Adobe Illustrator</h4>
+				<h3>Programmeerimiskeeled:</h3>
+					<h4>HTML</h4>
+					<h4>CSS</h4>
+				<h3>Kodulehed:</h3>
+					<h4>Wordpress</h4>
+					<h4>Joomla</h4>
+				<h3>Arhitektuursed programmid:</h3>
+					<h4>AutoCAD</h4>
+					<h4>Rhinoceros3D</h4>
+
 			</p>
 
 			<p class="textBIG">
-				Saan Sind aidata asjaga algust teha ja läbi viia personaalseid või gruppidele mõeldud koolitusi. Kirjuta mulle ja räägi oma ideest. Koos paneme paika just Sulle sobiva kava ja lepime kokku hinnas.<br/><br/>
 
 			</p>
 	<br/>

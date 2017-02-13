@@ -3,74 +3,193 @@
 
 <br/>
 
-<div class="content_wrapper">
-		<div class="project_thumb">
-			<a class="nohover" href="" onmouseover="this.className="hover";" onmouseout="this.className="nohover";">
-				<div class="project_pic">
-					<img class="project_img" src="Pildid/dgskype.png" width="220" height="312" border="0">
-				</div>
-				<div class="project_title">
-					<span class="title">Digigirls@Skype</span>
-				</div>
-				<div class="project_text">
-					Poster Tech Sistersi poolt korraldatavale üritustersarja Digigirls üritusele
-				</div>
-			</a>
-		</div> <!--digigirls skype-->
-		<div class="project_thumb">
-			<a class="nohover" href="" onmouseover="this.className="hover";" onmouseout="this.className="nohover";">
-				<div class="project_pic">
-					<img class="project_img" src="Pildid/dgnortalI.png" width="220" height="312" border="0">
-				</div>
-				<div class="project_title">
-					<span class="title">Digigirls@Nortal</span>
-				</div>
-				<div class="project_text">
-					Poster Tech Sistersi poolt korraldatavale üritustersarja Digigirls üritusele
-				</div>
-			</a>
-		</div><!--digigirls nortal testposter--><!--digigirls nortal-->
-		<div class="project_thumb">
-			<a class="nohover" href="" onmouseover="this.className="hover";" onmouseout="this.className="nohover";">
-				<div class="project_pic">
-					<img class="project_img" src="Pildid/axo4.PNG" width="220" height="157" border="0">
-				</div>
-				<div class="project_title">
-					<span class="title">Aksonomeetriline lõige</span>
-				</div>
-				<div class="project_text">
-					Kortermaja projekti lõige. Akadeemiline töö
-				</div>
-			</a>
-		</div><!--kortermaja axo-->
-		<div class="project_thumb">
-			<a class="nohover" href="" onmouseover="this.className="hover";" onmouseout="this.className="nohover";">
-				<div class="project_pic">
-					<img class="project_img" src="Pildid/renderI.PNG" width="220" height="132" border="0">
-				</div>
-				<div class="project_title">
-					<span class="title">Koolimaja render + fototöötlus</span>
-				</div>
-				<div class="project_text">
-					Akadeemiline töö
-				</div>
-			</a>
-		</div><!--koolimaja ender-->
-		<div class="project_thumb">
-			<a class="nohover" href="" onmouseover="this.className="hover";" onmouseout="this.className="nohover";">
-				<div class="project_pic">
-					<img class="project_img" src="Pildid/axoII.PNG" width="220" height="95" border="0">
-				</div>
-				<div class="project_title">
-					<span class="title">Aksonomeetriline lõige</span>
-				</div>
-				<div class="project_text">
-					Koolimaja projekti lõige. Akadeemiline töö
-				</div>
-			</a>
-		</div><!--koolimaja axo-->
-		
 
+<div class="content_wrapper">
+<!--digigirls nortal testposter-->
+		<div class="project_thumb">
+					<a class="nohover" href="" onmouseover="this.className="hover";" onmouseout="this.className="nohover";">
+						<div class="project_pic">
+							<img class="project_img" src="Pildid/dgnortalI.png" width="250" height="360" border="0">
+						</div>
+						<div class="project_title">
+							<span class="title">Digigirls@Nortal</span>
+						</div>
+
+					</a>
+				</div>
+<!--digigirls nortal testposter-->
+		<div class="project_thumb">
+				<a class="nohover" href="" onmouseover="this.className="hover";" onmouseout="this.className="nohover";">
+					<div class="project_pic">
+						<img class="project_img" src="Pildid/dgnortalI.png" width="250" height="360" border="0">
+					</div>
+					<div class="project_title">
+						<span class="title">Digigirls@Nortal</span>
+					</div>
+
+				</a>
+			</div>
+<!--digigirls skype-->
+		<div class="project_thumb">
+						<a class="nohover" href="" onmouseover="this.className="hover";" onmouseout="this.className="nohover";">
+							<div class="project_pic">
+								<img class="project_img" src="Pildid/dgskype.png" width="250" height="360" border="0">
+							</div>
+							<div class="project_title">
+								<span class="title">Digigirls@Skype</span>
+							</div>
+							<!--<div class="project_text">
+								Poster Tech Sistersi poolt korraldatavale üritustersarja Digigirls üritusele
+							</div>-->
+						</a>
+					</div>
+<!--Digigirlsi ürituse bänner-->
+		<div class="project_thumb">
+								<a class="nohover" href="" onmouseover="this.className="hover";" onmouseout="this.className="nohover";">
+									<div class="project_pic">
+										<img class="project_img" src="Pildid/Skype-fb-p2is_small.png" width="250" height="114" border="0">
+									</div>
+									<div class="project_title">
+										<span class="title">Digigirls bänner</span>
+									</div>
+
+								</a>
+							</div>
+							
+<!--kortermaja axo-->
+		<div class="project_thumb">
+			<a class="nohover" href="" onmouseover="this.className="hover";" onmouseout="this.className="nohover";">
+				<div class="project_pic">
+					<img class="project_img" src="Pildid/kortermaja_axo_b.jpg" width="250" height="250" border="0">
+				</div>
+				<div class="text_smallscreen">
+						<div class="project_title">
+							<span class="title">Aksonomeetriline lõige</span>
+						</div>
+				</div>
+			</a>
+		</div>
+<!--asendiplaanigraafika-->
+		<div class="project_thumb">
+					<a class="nohover" href="" onmouseover="this.className="hover";" onmouseout="this.className="nohover";">
+						<div class="project_pic">
+							<img class="project_img" src="Pildid/SAIT_small_ruut.jpg" width="250" height="250" border="0">
+						</div>
+						<div class="project_title">
+							<span class="title">Asendiplaani graafika</span>
+						</div>
+					</a>
+				</div>
+<!--slaidshow näide-->
+		<div class="project_thumb">
+			<a class="nohover" href="" onmouseover="this.className="hover";" onmouseout="this.className="nohover";">
+				<div class="project_pic">
+					<img class="project_img" src="Pildid/3dlI_ruut.jpg" width="250" height="250" border="0">
+				</div>
+				<div class="project_title">
+					<span class="title">Esitluse kujundus</span>
+				</div>
+
+			</a>
+		</div>
+<!--portfolio-->
+		<div class="project_thumb">
+			<a class="nohover" href="" onmouseover="this.className="hover";" onmouseout="this.className="nohover";">
+				<div class="project_pic">
+					<img class="project_img" src="Pildid/portfolio_s.png" width="250" height="250" border="0">
+				</div>
+				<div class="project_title">
+					<span class="title">Portfoolio</span>
+				</div>
+
+			</a>
+		</div>
+
+
+<!--koolimaja axo-->
+		<div class="project_thumb">
+			<a class="nohover" href="" onmouseover="this.className="hover";" onmouseout="this.className="nohover";">
+				<div class="project_pic">
+					<img class="project_img" src="Pildid/axo_5_ruut_small.jpg" width="250" height="250" border="0">
+				</div>
+				<div class="project_title">
+					<span class="title">Aksonomeetriline lõige</span>
+				</div>
+
+			</a>
+		</div>
+<!--fassaad-->
+		<div class="project_thumb">
+			<a class="nohover" href="" onmouseover="this.className="hover";" onmouseout="this.className="nohover";">
+				<div class="project_pic">
+					<img class="project_img" src="Pildid/facade_ruut.jpg" width="250" height="250" border="0">
+				</div>
+				<div class="project_title">
+					<span class="title">FASSAAD</span>
+				</div>
+
+			</a>
+		</div>
+	<!--discgolfikoolitused.ee-->
+		<div class="project_thumb">
+			<a class="nohover" href="" onmouseover="this.className="hover";" onmouseout="this.className="nohover";">
+				<div class="project_pic">
+					<img class="project_img" src="Pildid/dg_v2ike.jpg" width="250" height="250" border="0">
+				</div>
+				<div class="project_title">
+					<span class="title">Discgolfikoolitused.ee</span>
+				</div>
+			</a>
+		</div>
+<!--koolituste logo-->
+		<div class="project_thumb">
+			<a class="nohover" href="" onmouseover="this.className="hover";" onmouseout="this.className="nohover";">
+				<div class="project_pic">
+					<img class="project_img" src="Pildid/Logo_JPEG_small.jpg" width="250" height="250" border="0">
+				</div>
+				<div class="project_title">
+					<span class="title">Logo</span>
+				</div>
+
+			</a>
+		</div>
+<!--arhgraafika -->
+		<div class="project_thumb">
+			<a class="nohover" href="" onmouseover="this.className="hover";" onmouseout="this.className="nohover";">
+				<div class="project_pic">
+					<img class="project_img" src="Pildid/a1_small.jpg" width="250" height="250" border="0">
+				</div>
+				<div class="project_title">
+					<span class="title">Graafika</span>
+				</div>
+
+			</a>
+		</div>
+<!--logo isadepäevaks-->
+		<div class="project_thumb">
+			<a class="nohover" href="" onmouseover="this.className="hover";" onmouseout="this.className="nohover";">
+				<div class="project_pic">
+					<img class="project_img" src="Pildid/isadep2ev_bw.jpg" width="250" height="250" border="0">
+				</div>
+				<div class="project_title">
+					<span class="title">Isadepäev</span>
+				</div>
+
+			</a>
+		</div>
+
+<!--Ääred ja piirid-->
+		<div class="project_thumb">
+					<a class="nohover" href="" onmouseover="this.className="hover";" onmouseout="this.className="nohover";">
+						<div class="project_pic">
+							<img class="project_img" src="Pildid/ebcover.jpg" width="250" height="147" border="0">
+						</div>
+						<div class="project_title">
+							<span class="title">Ääred ja piirid esikaas</span>
+						</div>
+
+					</a>
+				</div>
 </div>
 
 <br/><br/><br/>

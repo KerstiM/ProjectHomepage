@@ -1,28 +1,48 @@
 
-	<h1>CV</h1>
-	<br>
-	<p class="textBIG">
-		Kersti Miller<br/>
-		info.khcreative@gmail.com<br/><br/>
 
-		MTÜ Tech Sisters<br/>
-		board member<br/><br/>
 
-		2015-...<br/>
-		Estonian Information Technology College /<br/>
-		IT Systems Development<br/><br/>
+	<div class="left">
+		<h1>TERE!</h1>
+		<p class="textBIG">
+			Olen Kersti, vabakutseline disainer Tallinnast. Aastast 2015 olen olnud tegev IT maailmas.
+			Minu huviks on front-end arendus ja disainitööd nii veebis kui paberil.
+			Olen kujundanud plakateid, jooniseid, bännereid kui ka raamatuid.
+			Vaata mu <a href="?page=main"><span style="color:#ff9933">portfooliot</span></a> ning tutvu mu käekirjaga!
+			Lisaks disainile viin läbi <a href="?page=workshop"><span style="color:#ff9933">koolitusi</span></a> ja annan <a href="?page=workshop"><span style="color:#ff9933"> konsultatsioone</span></a>.
+		</p><br>
+		<h1>Kirjuta mulle:</h1>
+		<p class="textBIG">
+			info.khcreative@gmail.com
+		</p><br>
 
-		2008-2014<br/>
-		Estonian Academy of Arts (EAA) /<br/>
-		Architecture and Urban planning, MSc<br/><br/>
+	</div>
 
-		2011-2012<br/>
-		Kungliga Tekniska Högskolan (KTH) /<br/>
-		Sustainable Design Studio<br/><br/>
+	<div class="right">
+		<h1>CV</h1>
+		<p class="textBIG">
+			Kersti Miller<br/>
+			info.khcreative@gmail.com<br/><br/>
 
-		2004-2007<br/>
-		​Tallinn Secondary School of Science<br/><br/>
-	</p>
+			MTÜ Tech Sisters<br/>
+			liige / juhatuse liige 2016 /<br/>
+			Digigirls korraldustiim /<br/><br/>
+
+			2015-...<br/>
+			Eesti Infotehnoloogia Kolledž /<br/>
+			IT süsteemide arendus<br/><br/>
+
+			2008-2014<br/>
+			Eesti Kunstiakadeemia /<br/>
+			Arhitektuur ja linna&shy;planeerimine, MSc<br/><br/>
+
+			2011-2012<br/>
+			Kungliga Tekniska Högskolan (KTH) /<br/>
+			Sustainable Design Studio<br/><br/>
+
+		</p>
+	</div>
+
+
 <!--
 		div class="left">
 			<h1 id="mainText3">
